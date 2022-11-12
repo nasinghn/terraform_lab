@@ -4,6 +4,6 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "tf_course" {
-  bucket = "nasinghn-test-bucket"
+  bucket = "nasinghn-test"
 #  acl = "private"
 }
