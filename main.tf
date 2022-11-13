@@ -15,6 +15,3 @@ resource "aws_instance" "test_instance" {
     Name = "ExampleAppServer"
   }
 }
-output "app_server" {
-  value = "${aws_instance.app_server.public_ip}"
-}
