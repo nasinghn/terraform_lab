@@ -1,6 +1,6 @@
 provider "aws" {
-  access_key = var.aws_access_key
-  secret_key = var.aws_secret_key
+  access_key = $access_key
+  secret_key = $secret_key
   region     = us-east-2
 }
 resource "aws_s3_bucket" "tf_course" {
