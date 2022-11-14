@@ -1,3 +1,3 @@
-output "app_server" {
+output "test_instance" {
   value = "${aws_instance.app_server.public_ip}"
 }
