@@ -8,7 +8,7 @@ resource "aws_s3_bucket" "tf_course" {
 #  acl = "private"
 }
 resource "aws_instance" "test_instance" {
-   ami           = "ami-09d3b3274b6c5d4aa"
+   ami           = "ami-0fcf52bcf5db7b003"
   instance_type = "t2.micro"
 
   tags = {
