@@ -4,7 +4,7 @@ provider "aws" {
   region     = var.region
 }
 resource "aws_s3_bucket" "tf_course" {
-  bucket = "nasinghn-testing-bucket1"
+  bucket = "nasinghn-testing-bucket"
 #  acl = "private"
 }
 resource "aws_instance" "test_instance" {
