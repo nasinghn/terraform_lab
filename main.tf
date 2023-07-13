@@ -9,7 +9,7 @@ resource "aws_s3_bucket" "tf_course" {
 }
 resource "aws_instance" "test_instance" {
    ami           = "ami-053b0d53c279acc90"
-  instance_type = "t2.micro"
+  instance_type = "t2.nano"
 
   tags = {
     Name = "Terraform-Cloud-example"
